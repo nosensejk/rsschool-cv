@@ -297,7 +297,7 @@ code {
 .edu-timeline li:last-child {
    margin-bottom: 0;
 }
-.edu-timeline li::before {
+.edu-timeline > li::before {
    content: "";
    position: absolute;
    left: -13px;
@@ -348,6 +348,27 @@ code {
 }
 .lang-list p {
    font-size: 0.85rem;
+}
+
+/* Стили для описания работы внутри таймлайна */
+.edu-timeline .work-desc {
+   margin-top: 0.75rem;
+   font-size: 0.9rem;
+   line-height: 1.6;
+   color: var(--text-muted, #a0aec0); /* Замени переменную на используемую в вашем теме */
+}
+
+/* Оформление списка обязанностей */
+.work-list {
+   list-style-type: disc;
+   padding-left: 1.25rem;
+   margin-top: 0.5rem;
+   margin-bottom: 0;
+   
+}
+
+.work-list li {
+   margin-bottom: 0.35rem;
 }
 
 /* --- Линейный CSS-слайдер (Без скачков ширины) --- */
