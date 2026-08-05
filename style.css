@@ -80,11 +80,11 @@ body {
 }
 
 .avatar {
-   width: 80px;
-   height: 80px;
+   width: 150px;
+   aspect-ratio: 1 / 1;
    border-radius: 50%;
    border: 3px solid var(--primary);
-   background: no-repeat url("img/hoopla.png") center/cover;
+   background: no-repeat url("img/photo.png") center/cover;
    flex-shrink: 0;
 }
 
@@ -147,8 +147,8 @@ body {
 .contacts a {
    display: grid;
    place-content: center;
-   width: 46px;
-   height: 46px;
+   width: 70px;
+   height: 70px;
    background: rgba(255, 255, 255, 0.03);
    border: 1px solid #334155;
    border-radius: 12px;
@@ -301,7 +301,7 @@ code {
    content: "";
    position: absolute;
    left: -13px;
-   top: 6px;
+   top: 8px;
    width: 8px;
    height: 8px;
    border-radius: 50%;
