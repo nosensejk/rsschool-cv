@@ -84,7 +84,7 @@ body {
    aspect-ratio: 1 / 1;
    border-radius: 50%;
    border: 3px solid var(--primary);
-   background: no-repeat url("img/photo.png") center/cover;
+   background: no-repeat url("img/hoopla.png") center/cover;
    flex-shrink: 0;
 }
 
