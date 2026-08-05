@@ -80,11 +80,11 @@ body {
 }
 
 .avatar {
-   width: 110px;
+   width: 150px;
    aspect-ratio: 1 / 1;
    border-radius: 50%;
    border: 3px solid var(--primary);
-   background: no-repeat url("img/hoopla.png") center/cover;
+   background: no-repeat url("img/photo.png") center/cover;
    flex-shrink: 0;
 }
 
@@ -111,10 +111,10 @@ body {
    white-space: nowrap;
    overflow: hidden;
    border-right: 2px solid var(--primary); /* Текстовый курсор */
-   width: 25ch; /* Длина строки в символах */
+   width: 18ch; /* Длина строки в символах */
 
    animation:
-      typing 2.5s steps(25) 0.5s both,
+      typing 2s steps(18) 0.5s both,
       blink 0.75s step-end infinite;
 }
 
@@ -124,7 +124,7 @@ body {
       width: 0;
    }
    to {
-      width: 25ch;
+      width: 18ch;
    }
 }
 
@@ -183,6 +183,10 @@ body {
    border: 1px solid #334155;
    border-radius: var(--radius);
    padding: clamp(1.25rem, 4vw, 2rem);
+}
+
+.indent{
+   text-indent: 18px;
 }
 
 /* Вынужденный ряд на всю ширину для больших блоков */
@@ -252,27 +256,6 @@ p {
 .kata-link {
    color: var(--primary);
    text-decoration: none;
-}
-
-pre {
-   background: #0b0f19;
-   border: 1px solid #334155;
-   border-radius: 0 0 8px 8px;
-   padding: 1rem;
-   overflow-x: auto;
-}
-code {
-   font-family: "JetBrains Mono", monospace;
-   font-size: 0.85rem;
-}
-.keyword {
-   color: #f472b6;
-}
-.function {
-   color: #60a5fa;
-}
-.number {
-   color: #fb923c;
 }
 
 /* --- Таймлайн --- */
